@@ -1,28 +1,35 @@
 html
 {
-    background-color: lightgrey;
+    background-color: black;
+    background-image: url(clean.png)
+      
+}
+body{
+    color: white;
 }
 
 h1 {
-
-
-    color: rgb(214, 103, 103);
+    color: white;
+    left: 100px;
+        
+     
 }
 
 
-
 table th {
-border-bottom: 1px dotted black;
+border-bottom: 1px dotted white;
 
 }
 
 Table th {
     border: 1px solid black; 
-    background: rgb(228, 142, 142);
+    background: white;
+    color: orange;
 }
 
 table th:nth-child(even) {
-    background: rgb(128, 231, 128)   
+    background: white  
+    color orange
 }
 img 
 {
@@ -53,3 +60,10 @@ font-weight: bold;
 div {
     font-weight: bold; 
 }
+
+.meny {
+    background: white;
+color: green;
+}
+
+
