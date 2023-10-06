@@ -1,38 +1,46 @@
-html
-{
-    background-color: black;
-    background-image: url(clean.png)
-      
+html {
+    background-color: white(177, 43, 43);
+    background-image: url(clean.png);
+    background-size: 47%;
+    background-position: center;
 }
-body{
-    color: white;
+
+body {
+    color: black;
 }
 
 h1 {
-    color: white;
-    left: 100px;
-        
-     
+    color: black;
+    height: 60px;
+    position: relative;
+    left: 40%;
 }
 
 
 table th {
-border-bottom: 1px dotted white;
-
+    border-bottom: 1px dotted black;
 }
-
 Table th {
-    border: 1px solid black; 
+    border: 1px solid black;
     background: white;
-    color: orange;
+    color: black;
 }
 
 table th:nth-child(even) {
-    background: white  
-    color orange
+    background: white color orange
 }
-img 
-{
+
+
+
+.meny {
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+
+
+img {
     width: 150px;
     border-radius: 150px;
 
@@ -54,16 +62,14 @@ img
 }
 
 p {
-font-weight: bold;
+    font-weight: bold;
 }
 
 div {
-    font-weight: bold; 
-}
-
-.meny {
-    background: white;
-color: green;
+    font-weight: bold;
 }
 
 
+
+.color-button {
+    cursor: pointer; }
