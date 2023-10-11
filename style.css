@@ -1,8 +1,6 @@
 html {
-    background-color: white(177, 43, 43);
-    background-image: url(clean.png);
-    background-size: 47%;
-    background-position: center;
+    background-color: orange
+    
 }
 
 body {
@@ -16,12 +14,12 @@ h1 {
     left: 40%;
 }
 
-
 table th {
     border-bottom: 1px dotted black;
 }
+
 Table th {
-    border: 1px solid black;
+    border: 10px solid black;
     background: white;
     color: black;
 }
@@ -35,14 +33,14 @@ table th:nth-child(even) {
 .meny {
     display: inline-block;
     padding: 10px 20px;
-    
+
+
 }
-
-
 
 img {
     width: 150px;
-    border-radius: 150px;
+    height: 150;
+    
 
 }
 
@@ -61,15 +59,10 @@ img {
     padding: 3px;
 }
 
-p {
-    font-weight: bold;
+.color-button {
+    cursor: pointer;
 }
 
 div {
     font-weight: bold;
 }
-
-
-
-.color-button {
-    cursor: pointer; }
